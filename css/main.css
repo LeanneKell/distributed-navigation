@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -15,18 +16,22 @@ header {
   display: flex;
   background-color: #e2e2e2;
   font-family: sans-serif;
+  justify-content: space-between;
 }
 
 img {
  width: 2rem;
+ order: -1;
 }
 
-.header h1 {
-
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-p {
-}
-
-nav {
+nav ul li{
+  margin: .5rem;
 }
