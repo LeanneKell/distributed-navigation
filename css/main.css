@@ -14,7 +14,8 @@ body {
 }
 
 header {
-  padding: 1rem .75em 1em .6em;
+  margin-bottom: .5rem;
+  padding: .75em 1em .6em;
   display: flex;
   background-color: #e2e2e2;
   align-items: center;
@@ -23,6 +24,7 @@ header {
 
 header p {
   font-size: 1.125rem;
+  margin-right: 15rem;
 }
 
 header img {
@@ -32,6 +34,7 @@ header img {
 
 header h1 {
   font-weight: bold;
+  margin-right: auto;
 }
 
 nav ul {
@@ -43,14 +46,18 @@ nav ul {
 
 nav ul li {
   margin: 1rem;
-  font-size: 1.125rem;
 }
 
 nav a {
-  color: #0074d9;
+  font-size: 1.125rem;
   text-decoration: none;
 }
 
+nav a:visited {
+  color: #0074d9;
+}
+
 nav a:hover {
+  color: #0074d9;
   text-decoration: underline;
 }
